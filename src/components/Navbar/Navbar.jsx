@@ -3,9 +3,9 @@ import { ArrowLineDown } from "@phosphor-icons/react";
 export default function Navbar() {
     return (
         <header className="sticky top-0 bg-background z-10">
-            <div className="flex justify-between items-center px-[5rem] py-[1rem] absolute top-0 w-full">
+            <div className="flex md:flex-row justify-between items-center px-[2rem] md:px-[5rem] py-[1rem] relative md:absolute top-0 w-full bg-background md:bg-transparent">
                 <h1 className="text-[2rem] font-[900] tracking-widest text-accent drop-shadow-xl">Learnify</h1>
-                <nav className="bg-background rounded-lg px-[2rem] py-[1rem] shadow-md border-2 border-backgroundGray">
+                <nav className="hidden md:flex bg-background rounded-lg px-[2rem] py-[1rem] shadow-md border-2 border-backgroundGray">
                     <ul className="flex gap-[2rem]">
                         <li className="">
                             <a href="#" className="flex items-center gap-[0.5rem]">
